@@ -1,0 +1,3 @@
+[submodule "termux-essentials"]
+	path = termux-essentials
+	url = https://github.com/animeshxd/termux-essentials
