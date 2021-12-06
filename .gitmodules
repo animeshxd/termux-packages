@@ -4,3 +4,6 @@
 [submodule "deb/tgbot-cpp/tgbot-cpp"]
 	path = deb/tgbot-cpp/tgbot-cpp
 	url = https://github.com/reo7sp/tgbot-cpp
+[submodule "deb/TdLib-cpp/td"]
+	path = deb/TdLib-cpp/td
+	url = https://github.com/tdlib/td
