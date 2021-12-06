@@ -1,3 +1,6 @@
 [submodule "termux-essentials"]
 	path = termux-essentials
 	url = https://github.com/animeshxd/termux-essentials
+[submodule "deb/tgbot-cpp/tgbot-cpp"]
+	path = deb/tgbot-cpp/tgbot-cpp
+	url = https://github.com/reo7sp/tgbot-cpp
