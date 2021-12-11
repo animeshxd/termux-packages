@@ -1,7 +1,7 @@
-pkg update
-pkg upgrade
-pkg install clang --upgrade
-pkg install git make cmake zlib openssl php build-essential binutils boost
+pkg update -y
+pkg upgrade -y
+pkg install clang --upgrade -y
+pkg install git make cmake zlib openssl php build-essential binutils boost -y
 if [ ! -d "td" ]; then
     git clone https://github.com/tdlib/td.git
     cd td
