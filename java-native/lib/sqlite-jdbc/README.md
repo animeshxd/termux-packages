@@ -8,7 +8,10 @@
  git clone https://github.com/xerial/sqlite-jdbc
  cd sqlite-jdbc
 
- # Fix
+ # Fix PREFIX
+ sed -i 's/\/tmp\//\/data\/data\/com.termux\/files\/usr\/tmp\//g' Makefile
+ 
+# Fix make native
  sed -i 's/CCFLAGS:=/CCFLAGS:= -lm/g' Makefile
 
  # compile
