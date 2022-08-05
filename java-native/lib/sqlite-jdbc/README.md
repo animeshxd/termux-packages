@@ -11,13 +11,19 @@
  # Fix PREFIX
  sed -i 's/\/tmp\//\/data\/data\/com.termux\/files\/usr\/tmp\//g' Makefile
  
-# Fix make native
- sed -i 's/CCFLAGS:=/CCFLAGS:= -lm/g' Makefile
 
+ # Fix make native
+ # sed -i 's/CCFLAGS:=/CCFLAGS:= -lm/g' Makefile
  # compile
- make -j7
+ # make -j7
+
+
+ # compile 
+ make native CCFLAGS="-lm -fPIC" -j7
+ # test
  mvn test
  
+
  # install with maven ( full jar )
  mvn install
 
