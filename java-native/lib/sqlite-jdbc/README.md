@@ -2,7 +2,7 @@
  ```sh
  
  # dependencies 
- apt install clang openjdk-17 perl maven make curl unzip git
+ apt install clang openjdk-17 perl maven make curl unzip git openssl
  
  # 1
  git clone https://github.com/xerial/sqlite-jdbc
