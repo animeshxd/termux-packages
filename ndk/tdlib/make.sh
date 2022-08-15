@@ -9,9 +9,9 @@ $ANDROID_SDK_ROOT/cmake/3.22.1/bin/cmake \
     -DANDROID_PLATFORM=android-23 \
     -DANDROID_TOOLCHAIN=clang \
     -DCMAKE_BUILD_TYPE=MinSizeRel \
-    -DOPENSSL_CRYPTO_LIBRARY=$ANDROID_SDK_ROOT/ndk-builds-21/$ARCH/lib/libcrypto.a \
-    -DOPENSSL_SSL_LIBRARY=$ANDROID_SDK_ROOT/ndk-builds-21/$ARCH/lib/libssl.a \
-    -DOPENSSL_INCLUDE_DIR=$ANDROID_SDK_ROOT/ndk-builds-21/$ARCH/include/ \
+    -DOPENSSL_CRYPTO_LIBRARY=$ANDROID_SDK_ROOT/ndk-builds/21/$ARCH/lib/libcrypto.a \
+    -DOPENSSL_SSL_LIBRARY=$ANDROID_SDK_ROOT/ndk-builds/21/$ARCH/lib/libssl.a \
+    -DOPENSSL_INCLUDE_DIR=$ANDROID_SDK_ROOT/ndk-builds/21/$ARCH/include/ \
     -DCMAKE_INSTALL_PREFIX:PATH=../tdlib ..
 
     # -DTD_ENABLE_JNI=OFF \
