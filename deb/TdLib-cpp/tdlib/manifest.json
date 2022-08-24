@@ -5,7 +5,7 @@
   "maintainer": "https://github.com/animeshxd",
   "description": "TdLib c++ library for Termux (Telegram Database Library)",
   "homepage": "https://github.com/tdlib/td",
-  "depends": ["pkg-config","clang","build-essential", "cmake", "make", "openssl", "zlib", "boost", "binutils"],
+  "depends": ["openssl", "zlib", "cmake", "pkg-config"],
   "recommends": [],
   "suggests": [],
   "provides": [],
