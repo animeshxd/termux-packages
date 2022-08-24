@@ -1,7 +1,7 @@
 clang
-make 
+ninja
 cmake
-zlib 
+zlib
 openssl
 php
 gperf
