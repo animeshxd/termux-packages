@@ -1,0 +1,7 @@
+clang
+make 
+cmake
+zlib 
+openssl
+php
+gperf
